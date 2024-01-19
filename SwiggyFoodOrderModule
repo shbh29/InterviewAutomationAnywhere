@@ -1,0 +1,39 @@
+
+
+Usecase:
+1. List of Food Items
+2. Order
+3. Payment
+
+
+Classes:
+FoodItem {
+name
+image
+description
+unitPrice
+}
+
+Order {
+FoodItem
+Count
+UnitPrice
+TimeStamp
+}
+
+Order_List {
+    List<>
+}
+
+Order
+id
+food_item_id ->
+count
+
+order_fooditem_mapping
+id
+order_id
+food_item_id
+
+food_item
+id
